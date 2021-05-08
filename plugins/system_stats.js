@@ -28,7 +28,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n\n*Developer:* TOXIC DEVIL\n*Contact Developer:* Wa.me/919544707896\n\n*Git :* https://github.com/TOXIC-DEVIL/WhatsAsenaPublic.git\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n*WhatsApp Group 2 :* https://chat.whatsapp.com/FdxBLbt1BcT3NKbVKvNGcD\n\n```Thank You For Using WhatsAsenaPublic 🐺 💞```' , MessageType.text);
+            await message.client.sendMessage(message.jid,'```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n\n*Developer:* TOXIC DEVIL\n*Contact Developer:* Wa.me/919544707896\n\n*Git :* https://github.com/TOXIC-DEVIL/WhatsAsenaPublic.git\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/FdxBLbt1BcT3NKbVKvNGcD\n*WhatsApp Group 2 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n\n```Thank You For Using WhatsAsenaPublic 🐺 💞```' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n\n*POWERED BY TOXIC DEVIL*', MessageType.text);
@@ -58,7 +58,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n\n*Developer:* TOXIC DEVIL\n*Contact Developer:* Wa.me/919544707896\n\n*Git :* https://github.com/TOXIC-DEVIL/WhatsAsenaPublic.git\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n*WhatsApp Group 2 :* https://chat.whatsapp.com/FdxBLbt1BcT3NKbVKvNGcD\n\n```Thank You For Using WhatsAsenaPublic 🐺 💞```' , MessageType.text);
+            await message.client.sendMessage(message.jid,'```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n\n*Developer:* TOXIC DEVIL\n*Contact Developer:* Wa.me/919544707896\n\n*Git :* https://github.com/TOXIC-DEVIL/WhatsAsenaPublic.git\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/FdxBLbt1BcT3NKbVKvNGcD\n*WhatsApp Group 2 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n\n```Thank You For Using WhatsAsenaPublic 🐺 💞```' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n\n*POWERED BY TOXIC DEVIL*', MessageType.text);
